@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: spring-webflux-r2dbc-lab
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/postgres?schema=employee
+    username: root
+    password: root
+  docker:
+    compose:
+      file: docker-compose.yml
+      enabled: true
+logging:
+  level:
+    org.springframework: info
+  boot:
+    run:
+      jvmArguments: -XX:+AllowRedefinitionToAddDeleteMethods
