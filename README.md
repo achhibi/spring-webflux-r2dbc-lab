@@ -12,7 +12,7 @@ This project demonstrates the implementation of a reactive application using Spr
 - Docker support for PostgreSQL setup.
 ## Technology Stack
 
-- **Spring Boot** - Framework for building production-ready applications.
-- **Spring Data R2DBC** - Reactive relational database connectivity.
+- **Spring Boot**
+- **Spring Data R2DBC**
 - **Postgresql R2DBC Driver** - Relational database management system.
-- **Docker Compose** - Containerization platform.
+- **Docker Compose**
