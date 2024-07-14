@@ -14,5 +14,5 @@ This project demonstrates the implementation of a reactive application using Spr
 
 - **Spring Boot**
 - **Spring Data R2DBC**
-- **Postgresql R2DBC Driver** - Relational database management system.
+- **Postgresql R2DBC Driver** - Relational database management system driver.
 - **Docker Compose**
